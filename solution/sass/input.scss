@@ -56,7 +56,6 @@ main {
         width: 100%;
     }
     #overlay {
-        background-image: url("../images/icon-view.svg");
         background-repeat: no-repeat;
         background-position: center;
         position: absolute;
@@ -68,6 +67,7 @@ main {
     }
     #overlay:hover {
         background-color: $cyan-opaque;
+        background-image: url("../images/icon-view.svg");
     }
 }
 
