@@ -1,0 +1,116 @@
+body {
+  background-color: #0d192b;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00fff7;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -280px 0 0 -150px;
+  width: 300px;
+  background-color: #14253d;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: Outfit, sans-serif;
+  -webkit-box-shadow: 0px 8px 0px 4px #0b1423, 0px 4px 0px 16px rgba(12, 22, 39, 0.8);
+  box-shadow: 0px 8px 0px 4px #0b1423, 0px 4px 0px 16px rgba(12, 22, 39, 0.8);
+}
+main h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+main p {
+  color: #8bacda;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#img-container {
+  position: relative;
+}
+#img-container #eq {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+#img-container #overlay {
+  background-image: url("../images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  border-radius: 15px;
+}
+#img-container #overlay:hover {
+  background-color: rgba(0, 255, 247, 0.5);
+}
+
+#flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #2f415b;
+  font-size: 14px;
+}
+#flex-container #left {
+  display: flex;
+  height: 16px;
+  color: #00fff7;
+  align-items: center;
+}
+#flex-container #left #icon-eth {
+  content: url("../images/icon-ethereum.svg");
+  height: 100%;
+  padding-right: 6px;
+}
+#flex-container #right {
+  display: flex;
+  height: 16px;
+  align-items: center;
+  color: #8bacda;
+}
+#flex-container #right #icon-clock {
+  content: url("../images/icon-clock.svg");
+  height: 100%;
+  padding-right: 6px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  height: 40px;
+  font-size: 14px;
+  color: #8bacda;
+}
+#footer #avatar {
+  width: auto;
+  height: auto;
+  max-height: 30px;
+  border-radius: 50%;
+  border: solid 1px white;
+  margin-right: 20px;
+}
+
+.attribution {
+  font-family: Outfit, sans-serif;
+  color: #8bacda;
+  font-size: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
